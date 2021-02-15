@@ -1,0 +1,119 @@
+.header{
+  display: flex;
+}
+
+.leftHeader{
+  width: 90%;
+}
+
+.rightHeader{
+  width:10%;
+  align-self: center;
+  display: flex;
+  position: fixed;
+  right:30px;
+}
+
+p{
+  background-color: #3477eb;
+  border-radius: 90%;
+
+  position: fixed;
+  top:0;
+  right:25px;
+}
+
+.slikaKorpe{
+  width:30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  
+}
+
+.korpa{
+  position: fixed;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+  align-self: center;
+  margin:0;
+  padding: 0;
+background-color: transparent;
+border:none;
+}
+
+.navbar {
+    transition: all 0.4s;
+  }
+  
+  .navbar .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff;
+  }
+  
+  
+  /* Change navbar styling on scroll */
+  .navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar.active .nav-link {
+    color: #555;
+  }
+  
+  .navbar.active .nav-link:hover,
+  .navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .navbar.active .navbar-brand {
+    color: #555;
+  }
+  
+  
+  /* Change navbar styling on small viewports */
+  @media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+  
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+  }
+  
+  
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  
+  body {
+    min-height: 110vh;
+    background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+  }
