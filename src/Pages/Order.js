@@ -8,6 +8,8 @@ const LOCAL_STORAGE_KEY = "products-in-cart";
 
 function validateForm(){
 
+    
+
     var b = document.getElementById("iime").style.display = "none";
     var b = document.getElementById("iprezime").style.display = "none";
     var b = document.getElementById("ikontakt").style.display = "none";
@@ -94,6 +96,10 @@ class Order extends Component {
 
 
       handlePotvrdi = () => {
+        if(this.state.cart.length===0){
+            alert("Vasa korpa je prazna");
+        return false;
+        }
         if( validateForm())
           this.props.potvrdiPorudzbinu();
       }
